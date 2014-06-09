@@ -3,7 +3,7 @@ my-dirty-script-collection
 Little script which adds lyrics to mp3 files from text files with the same track numbering.
 0 byte files are tweaked as instrumental
 E.g.:
-Track 1 gets lyrics from a file called {1}
+Track 1 gets lyrics from a file called `1`
 ```
 apply_lyrics.py -musicPath /Path/To/MusicAlbum --lyricsPath /Path/To/Lyrics/
 ```
@@ -26,13 +26,13 @@ For Example:
 and /Path/To/Lyrics/ should have the following structure:
 ```
 1:17:22 loki-afro@computer:/Path/To/Lyrics/~$ls -lshtr
-8 -rw-r--r--  1 Zarathustra  staff   530B Jun  3 21:58 9
-0 -rw-r--r--  1 Zarathustra  staff     0B Jun  3 21:58 8
-8 -rw-r--r--  1 Zarathustra  staff   149B Jun  3 21:58 7
-8 -rw-r--r--  1 Zarathustra  staff   887B Jun  3 21:58 6
-0 -rw-r--r--  1 Zarathustra  staff     0B Jun  3 21:58 5
-8 -rw-r--r--  1 Zarathustra  staff   295B Jun  3 21:58 4
-8 -rw-r--r--  1 Zarathustra  staff   1.4K Jun  3 21:58 3
-8 -rw-r--r--  1 Zarathustra  staff   619B Jun  3 21:58 2
-0 -rw-r--r--  1 Zarathustra  staff     0B Jun  3 21:58 1 #instrumental
+8 -rw-r--r--  1 loki-afro   staff   530B Jun  3 21:58 9
+0 -rw-r--r--  1 loki-afro   staff     0B Jun  3 21:58 8
+8 -rw-r--r--  1 loki-afro   staff   149B Jun  3 21:58 7
+8 -rw-r--r--  1 loki-afro   staff   887B Jun  3 21:58 6
+0 -rw-r--r--  1 loki-afro   staff     0B Jun  3 21:58 5
+8 -rw-r--r--  1 loki-afro   staff   295B Jun  3 21:58 4
+8 -rw-r--r--  1 loki-afro   staff   1.4K Jun  3 21:58 3
+8 -rw-r--r--  1 loki-afro   staff   619B Jun  3 21:58 2
+0 -rw-r--r--  1 loki-afro   staff     0B Jun  3 21:58 1
 ```
