@@ -32,7 +32,7 @@ def main(argv):
 
 
 def print_help():
-    print 'test.py -m <musicPath> -l <lyricsPath>'
+    print 'apply_lyrics.py -m <musicPath> -l <lyricsPath>'
 
 
 def for_each_mp3file(music_disc_path, lyrics_dir):
